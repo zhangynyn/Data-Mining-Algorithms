@@ -1,0 +1,130 @@
+Summary:
+Total rows in the original set: 149
+Total rules discovered: 61
+The selected measures: Support=0.4, Confidence=0.6
+------------------------------------------------
+Discovered Rules:
+
+
+Rule#1: { breast = left } -----> { inv-nodes = 0-2, irradiat = no }
+(Support = 0.4, Confidence = 0.7)
+Rule#2: { inv-nodes = 0-2, breast = left } -----> { irradiat = no }
+(Support = 0.4, Confidence = 0.95)
+Rule#3: { irradiat = no, breast = left } -----> { inv-nodes = 0-2 }
+(Support = 0.4, Confidence = 0.9)
+Rule#4: { menopause = premeno } -----> { node-caps = no, inv-nodes = 0-2 }
+(Support = 0.4, Confidence = 0.74)
+Rule#5: { node-caps = no, menopause = premeno } -----> { inv-nodes = 0-2 }
+(Support = 0.4, Confidence = 0.95)
+Rule#6: { inv-nodes = 0-2, menopause = premeno } -----> { node-caps = no }
+(Support = 0.4, Confidence = 0.97)
+Rule#7: { breast = left } -----> { inv-nodes = 0-2, node-caps = no }
+(Support = 0.41, Confidence = 0.71)
+Rule#8: { inv-nodes = 0-2, breast = left } -----> { node-caps = no }
+(Support = 0.41, Confidence = 0.97)
+Rule#9: { node-caps = no, breast = left } -----> { inv-nodes = 0-2 }
+(Support = 0.41, Confidence = 0.97)
+Rule#10: { menopause = premeno } -----> { inv-nodes = 0-2 }
+(Support = 0.42, Confidence = 0.77)
+Rule#11: { breast = left } -----> { node-caps = no }
+(Support = 0.42, Confidence = 0.73)
+Rule#12: { menopause = premeno } -----> { node-caps = no }
+(Support = 0.42, Confidence = 0.78)
+Rule#13: { breast = left } -----> { inv-nodes = 0-2 }
+(Support = 0.42, Confidence = 0.73)
+Rule#14: { breast = left } -----> { irradiat = no }
+(Support = 0.45, Confidence = 0.78)
+Rule#15: { menopause = premeno } -----> { irradiat = no }
+(Support = 0.45, Confidence = 0.83)
+Rule#16: { inv-nodes = 0-2 } -----> { Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.62)
+Rule#17: { Class = no-recurrence-events } -----> { inv-nodes = 0-2 }
+(Support = 0.47, Confidence = 1.0)
+Rule#18: { node-caps = no } -----> { irradiat = no, Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.6)
+Rule#19: { Class = no-recurrence-events } -----> { node-caps = no, irradiat = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#20: { node-caps = no, irradiat = no } -----> { Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.68)
+Rule#21: { node-caps = no, Class = no-recurrence-events } -----> { irradiat = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#22: { irradiat = no, Class = no-recurrence-events } -----> { node-caps = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#23: { Class = no-recurrence-events } -----> { irradiat = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#24: { node-caps = no } -----> { Class = no-recurrence-events, inv-nodes = 0-2 }
+(Support = 0.47, Confidence = 0.6)
+Rule#25: { Class = no-recurrence-events } -----> { node-caps = no, inv-nodes = 0-2 }
+(Support = 0.47, Confidence = 1.0)
+Rule#26: { inv-nodes = 0-2 } -----> { node-caps = no, Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.62)
+Rule#27: { node-caps = no, Class = no-recurrence-events } -----> { inv-nodes = 0-2 }
+(Support = 0.47, Confidence = 1.0)
+Rule#28: { node-caps = no, inv-nodes = 0-2 } -----> { Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.65)
+Rule#29: { inv-nodes = 0-2, Class = no-recurrence-events } -----> { node-caps = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#30: { inv-nodes = 0-2 } -----> { irradiat = no, Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.62)
+Rule#31: { Class = no-recurrence-events } -----> { inv-nodes = 0-2, irradiat = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#32: { inv-nodes = 0-2, irradiat = no } -----> { Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.67)
+Rule#33: { inv-nodes = 0-2, Class = no-recurrence-events } -----> { irradiat = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#34: { irradiat = no, Class = no-recurrence-events } -----> { inv-nodes = 0-2 }
+(Support = 0.47, Confidence = 1.0)
+Rule#35: { node-caps = no } -----> { Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.6)
+Rule#36: { Class = no-recurrence-events } -----> { node-caps = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#37: { inv-nodes = 0-2 } -----> { node-caps = no, irradiat = no, Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.62)
+Rule#38: { Class = no-recurrence-events } -----> { node-caps = no, inv-nodes = 0-2, irradiat = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#39: { node-caps = no } -----> { inv-nodes = 0-2, irradiat = no, Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.6)
+Rule#40: { inv-nodes = 0-2, Class = no-recurrence-events } -----> { node-caps = no, irradiat = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#41: { inv-nodes = 0-2, irradiat = no } -----> { node-caps = no, Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.67)
+Rule#42: { inv-nodes = 0-2, node-caps = no } -----> { Class = no-recurrence-events, irradiat = no }
+(Support = 0.47, Confidence = 0.65)
+Rule#43: { irradiat = no, Class = no-recurrence-events } -----> { node-caps = no, inv-nodes = 0-2 }
+(Support = 0.47, Confidence = 1.0)
+Rule#44: { node-caps = no, Class = no-recurrence-events } -----> { inv-nodes = 0-2, irradiat = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#45: { node-caps = no, irradiat = no } -----> { inv-nodes = 0-2, Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.68)
+Rule#46: { inv-nodes = 0-2, irradiat = no, Class = no-recurrence-events } -----> { node-caps = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#47: { node-caps = no, inv-nodes = 0-2, Class = no-recurrence-events } -----> { irradiat = no }
+(Support = 0.47, Confidence = 1.0)
+Rule#48: { inv-nodes = 0-2, irradiat = no, node-caps = no } -----> { Class = no-recurrence-events }
+(Support = 0.47, Confidence = 0.7)
+Rule#49: { node-caps = no, irradiat = no, Class = no-recurrence-events } -----> { inv-nodes = 0-2 }
+(Support = 0.47, Confidence = 1.0)
+Rule#50: { node-caps = no } -----> { irradiat = no, inv-nodes = 0-2 }
+(Support = 0.67, Confidence = 0.86)
+Rule#51: { irradiat = no } -----> { node-caps = no, inv-nodes = 0-2 }
+(Support = 0.67, Confidence = 0.83)
+Rule#52: { inv-nodes = 0-2 } -----> { node-caps = no, irradiat = no }
+(Support = 0.67, Confidence = 0.88)
+Rule#53: { node-caps = no, irradiat = no } -----> { inv-nodes = 0-2 }
+(Support = 0.67, Confidence = 0.97)
+Rule#54: { node-caps = no, inv-nodes = 0-2 } -----> { irradiat = no }
+(Support = 0.67, Confidence = 0.93)
+Rule#55: { inv-nodes = 0-2, irradiat = no } -----> { node-caps = no }
+(Support = 0.67, Confidence = 0.96)
+Rule#56: { node-caps = no } -----> { irradiat = no }
+(Support = 0.69, Confidence = 0.89)
+Rule#57: { irradiat = no } -----> { node-caps = no }
+(Support = 0.69, Confidence = 0.86)
+Rule#58: { inv-nodes = 0-2 } -----> { irradiat = no }
+(Support = 0.7, Confidence = 0.92)
+Rule#59: { irradiat = no } -----> { inv-nodes = 0-2 }
+(Support = 0.7, Confidence = 0.87)
+Rule#60: { inv-nodes = 0-2 } -----> { node-caps = no }
+(Support = 0.72, Confidence = 0.96)
+Rule#61: { node-caps = no } -----> { inv-nodes = 0-2 }
+(Support = 0.72, Confidence = 0.93)
